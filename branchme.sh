@@ -2,7 +2,7 @@
 
 id=$(uuid)
 
-git checkout master
+git checkout experiment_0
 git checkout -b experiment_${id}
 
 echo ${id} >> experiment.uuid
